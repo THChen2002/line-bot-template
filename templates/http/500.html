@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Forbidden{% endblock %}
+{% block content %}
+<div class="text-center mt-5" style="color: #555; font-family: 'Verdana', sans-serif; padding: 20px; max-width: 600px;">
+    <!-- 使用 Lottie 動畫，居中對齊 -->
+    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+        <dotlottie-player 
+            src="https://lottie.host/ef70f195-9b15-4e54-9687-e971a15a99f6/RYWYa3GSEw.lottie" 
+            background="transparent" 
+            speed="1" 
+            style="width: 300px; height: 300px;" 
+            loop 
+            autoplay>
+        </dotlottie-player>
+    </div>
+    <hr>
+    <h2 class="mb-4" style="font-family:微軟正黑體; font-weight: bold; margin-top: 35px;">500 Internal Server Error</h2>
+    <p>The server encountered an internal error and was unable to complete your request.</p>
+</div>
+{% endblock %} 

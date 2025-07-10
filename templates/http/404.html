@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Forbidden{% endblock %}
+{% block content %}
+<div class="text-center mt-5" style="color: #555; font-family: 'Verdana', sans-serif; padding: 20px; max-width: 600px;">
+    <!-- 使用 Lottie 動畫，居中對齊 -->
+    <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+        <dotlottie-player 
+            src="https://lottie.host/21e2fe31-5e9e-43fd-99dc-62923f38b97b/pTcaKLlPab.lottie" 
+            background="transparent" 
+            speed="1" 
+            style="width: 300px; height: 300px;" 
+            loop 
+            autoplay>
+        </dotlottie-player>
+    </div>
+    <hr>
+    <h2 class="mb-4" style="font-family:微軟正黑體; font-weight: bold; margin-top: 35px;">404 Not Found</h2>
+    <p>The page you are looking for does not exist.</p>
+</div>
+{% endblock %} 
